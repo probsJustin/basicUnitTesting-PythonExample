@@ -3,9 +3,12 @@
 class unitTestReturn:
     unitTest = ""
     realReturnObject = ""
-    
     def __init__(self):
         self.data = []
+    def checkString(textString):
+        return isinstance(textString,str)
+    def checkInt(textInt):
+        return isinstance(textInt,int)
         
 toList = list()
 thingToAddToList = "this is an example"
